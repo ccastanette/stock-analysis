@@ -10,7 +10,21 @@ Our analysis has shown that with the exception of TERP stock all of these stocks
 
 The refactored code was significantly faster to run. 
 
-Unrefactored results for 2017 returned in `1.3359938` seconds while the refactored code took `0.3125` seconds. For the year 2018 the unrefactored code took `1.429688` seconds and the refactored code returned results in `.021875` seconds. Looping through the main data one but introducing a separate For loop to move through the tickers made a significant improvement in the time it took to run the code. This was made possible by also adding a variable called tickerIndex
+Unrefactored results for 2017 returned in `1.3359938` seconds while the refactored code took `0.3125` seconds. For the year 2018 the unrefactored code took `1.429688` seconds and the refactored code returned results in `.021875` seconds. Looping through the main data one but introducing a separate For loop to move through the tickers made a significant improvement in the time it took to run the code. 
+
+```
+    For i = 0 To 11
+        
+        tickerVolume(i) = 0
+     
+      ' If the next row’s ticker doesn’t match, increase the tickerIndex.
+
+    
+      Next i
+```
+
+This was made possible by also adding a variable called tickerIndex:
+
 ```
     '1a) Create a ticker Index
     Dim tickerIndex As Integer
