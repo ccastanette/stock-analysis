@@ -6,13 +6,13 @@ The purpose of this analysis is to offer a clear and simple way for our friend S
 
 ## Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-[Refactored Results & Run Time for 2017](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
+![Refactored Results & Run Time for 2017](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
 
-[Refactored Results & Run Time for 2018](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
+![Refactored Results & Run Time for 2018](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
-[Un-Refactored Results & Run Time for 2017](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2017_unrefactored.png)
+![Un-Refactored Results & Run Time for 2017](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2017_unrefactored.png)
 
-[Un-Refactored Results & Run Time for 2018](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2018_unrefactored.png)
+![Un-Refactored Results & Run Time for 2018](https://github.com/ccastanette/stock-analysis/blob/master/Resources/VBA_Challenge_2018_unrefactored.png)
 
 
 ## Summary: 
