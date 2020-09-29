@@ -2,7 +2,7 @@
 
 ## Overview of Project: 
 
-The purpose of this analysis is to offer a clear and simple way for our friend Steve to quickly analyse stock data for different years and to do it in as efficient a manner as possible. In this case when we refactored the code we removed the nested for loop.
+The purpose of this analysis is to offer a clear and simple way for our friend Steve to quickly analyze stock data for different years and to do it in as efficient a manner as possible. In this case when we refactored the code we removed the nested for loop.
 
 ## Results: 
 
