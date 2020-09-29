@@ -16,10 +16,7 @@ Unrefactored results for 2017 returned in `1.3359938` seconds while the refactor
     For i = 0 To 11
         
         tickerVolume(i) = 0
-     
-      ' If the next row’s ticker doesn’t match, increase the tickerIndex.
 
-    
       Next i
 ```
 
@@ -29,6 +26,14 @@ This was made possible by also adding a variable called tickerIndex:
     '1a) Create a ticker Index
     Dim tickerIndex As Integer
     tickerIndex = 0
+```
+That we could increment everytime a change of ticker was detected.
+```
+            If Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+                
+                tickerIndex = tickerIndex + 1
+            
+            End If
 ```
 
 ### 2017 Results with Refactored Code:
@@ -52,6 +57,10 @@ This was made possible by also adding a variable called tickerIndex:
 
 ### What are the advantages or disadvantages of refactoring code?
 
+The advantages of refactoring code can include greatly increased efficiency of the code, having fewer steps or improving the logic within the code.
 
+The disadvantages include the possibility that you will have invested a large amount of time and not actually improved the efficiency or anything else about the code. You are also spending time on a task that is already being completed successfully so you will need to weigh the time it will take against other tasks that need to be completed.
 
 ### How do these pros and cons apply to refactoring the original VBA script?
+
+The disadvantage of refactoring this code is that it is more complicated which might make it harder to edit or improve later. However, the results of refactoring the code during this challenge where significant enough that it was definitely worth the effort and the results will most likely continue to increase the more data we are processing. 
